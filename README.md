@@ -36,7 +36,7 @@ source ~/.bashrc
 ```
 
 # Results
-- Simple model is sufficent: 2 dense layers with size 8
+- Simple model is sufficent: 1 dense layer with size 8
 - No regularization
 - CategoricalCrossEntropy
 - Adam as optimizer with default lr

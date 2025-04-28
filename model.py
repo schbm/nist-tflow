@@ -26,7 +26,7 @@ class MyModel(Model):
 
         self.flatten = (keras.layers.Flatten(input_shape=(28, 28), name="flatten"))
         self.dense1 = keras.layers.Dense(8, activation="relu")
-        self.dense1 = keras.layers.Dense(8, activation="relu")
+        #self.dense1 = keras.layers.Dense(8, activation="relu")
         self.out = keras.layers.Dense(10, activation="softmax")
     
     def call(self, x, training=False):
